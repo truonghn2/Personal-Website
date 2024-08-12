@@ -1,0 +1,181 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.playwrite-h1{
+    font-family: "Playwrite AT", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 50px;
+    color: white;
+ }
+
+ .fredoka-h2 {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    color: white;
+}
+
+.fredoka-contact {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: bold;
+    font-variation-settings:
+      "wdth" 100;
+    color: white;
+    font-size: 40px;
+}
+
+.fredoka-copy {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    color: white;
+    font-size: 20px;
+}
+
+.fredoka-pink-header {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    color: #f0808080;
+    font-size: 50px;
+}
+
+.fredoka-pink-text {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    color: #f0808080;
+    font-size: 25px;
+}
+
+.fredoka-white-text {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    color: white;
+    font-size: 25px;
+}
+
+/*the last '80' in rgb is the opacity...about 50%*/
+.top-container {
+    background-color: #f0808080;
+}
+
+.profilepic {
+    width: 300px;
+    height: 300px;
+}
+
+.profilepicitem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 6;
+    grid-column-end: 8;
+}
+
+.container-pp-socials {
+    display: grid;
+    gap: .5rem;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.socials {
+    width: 50px;
+    height: 50px;
+}
+
+.socials-container {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    grid-column-start: 12;
+}
+
+.socials-container2 {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.aboutme-container {
+    display: grid;
+    gap: .5rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.skillscontainer {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: .5fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pics {
+    width: 300px;
+    height: 300px;
+}
+
+.footer-container {
+    background-color: #f0808080;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.footer-socials {
+    display: grid;
+    gap: .5rem;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.LinkedIn {
+    grid-column-start: 6;
+}
+
+.contact-me {
+    margin: 0%
+}
+
+
+
+
+
+
